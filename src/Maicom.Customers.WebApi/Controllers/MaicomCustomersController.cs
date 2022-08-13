@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Maicom.Customers.WebApi.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/v1/customer")]
 public class MaicomCustomersController : ControllerBase
 {
     private readonly DbConnection _connection;
@@ -19,7 +19,7 @@ public class MaicomCustomersController : ControllerBase
         _connection = connection;
     }
 
-    [HttpGet(Name = "maicom-customers")]
+    [HttpGet]
     public async Task<IReadOnlyCollection<Customer>> GetCustomers(CancellationToken cancellationToken)
     {
         var collection = new Collection<Customer>();

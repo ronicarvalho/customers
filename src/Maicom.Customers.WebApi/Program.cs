@@ -1,22 +1,11 @@
-using Maicom.Customers.WebApi.Extensions;
+namespace Maicom.Customers.WebApi;
 
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddPostgreDatabase(builder.Configuration);
-
-var app = builder.Build();
-
-if (app.Environment.IsDevelopment())
+public static class Program
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    public static void Main() => Host
+        .CreateDefaultBuilder()
+        .ConfigureLogging(builder => builder.ClearProviders())
+        .ConfigureWebHostDefaults(builder => builder.UseStartup<Startup>())
+        .Build()
+        .Run();
 }
-
-app.UseHttpsRedirection();
-app.UseAuthorization();
-app.MapControllers();
-
-app.Run();
