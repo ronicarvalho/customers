@@ -9,19 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3efc96d7-4eea-4bdc-bf4c-83708e48efeb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Maicom.Customers.WebApi/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/CustomersWebApiSetup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/Models/CustomerTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/appsettings.test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Customers/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Customers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Customers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maicom.Customers.WebApi/Controllers/MaicomCustomersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maicom.Customers.WebApi/Controllers/MaicomCustomersController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Maicom.Customers.WebApi/Maicom.Customers.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maicom.Customers.WebApi/Maicom.Customers.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Maicom.Customers.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Maicom.Customers.WebApi/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/Maicom.Customers.WebApiTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/Maicom.Customers.WebApiTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/Services/MaicomCustomersWebApiTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/Services/MaicomCustomersWebApiTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/Services/MaicomCustomersWebApiTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/appsettings.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/appsettings.test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test/Maicom.Customers.WebApiTests/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2a925edfe5584632978e98fd8509cdf4d7a8/9a/e4a44797/ExceptionAggregator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/1b/baa39818/ReflectionAbstractionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/57/3ac138f5/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377b61b613ea444f826f377d9474ffca3c9a8/66/6ac019ad/TestClassConstructionFinished.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3f36c970d75748a5b6c1cdf6f5009fb45aa00/dd/044c422a/GenericHostWebHostBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d290c8ecd1bd4a4859611fd1708df621d343e5335564e1fbd405610a3a5b342/WebApplicationFactory.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,19 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Maicom.Customers.WebApi: Maikom.Customers.WebApi">
     <configuration name="Maicom.Customers.WebApi: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/Maicom.Customers.WebApi/Maicom.Customers.WebApi.csproj" />
@@ -95,7 +94,9 @@
       <updated>1659215178121</updated>
       <workItem from="1659215185019" duration="68000" />
       <workItem from="1660417532437" duration="2392000" />
-      <workItem from="1660420534994" duration="3776000" />
+      <workItem from="1660420534994" duration="5922000" />
+      <workItem from="1660485273412" duration="129000" />
+      <workItem from="1660485428427" duration="307000" />
     </task>
     <servers />
   </component>
@@ -117,5 +118,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -5,7 +5,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using FluentAssertions;
 using Maicom.Customers.WebApiTests.Models;
-using Microsoft.AspNetCore.Http;
 using Xunit;
 
 namespace Maicom.Customers.WebApiTests.Services;
@@ -32,7 +31,7 @@ public class MaicomCustomersWebApiTests: IClassFixture<CustomersWebApiSetup>
             .ReadFromJsonAsync<CustomerTest[]>(cancellationToken: cancellationToken)
             .ConfigureAwait(false);
 
-        response.StatusCode.Should().Be((HttpStatusCode)StatusCodes.Status200OK);
+        response.StatusCode.Should().Be(HttpStatusCode.OK);
         content.Should().NotBeNull();
         content.Should().HaveCount(10);
     }
